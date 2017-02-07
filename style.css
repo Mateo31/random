@@ -5,3 +5,11 @@
 h1 {
     text-align: center;
 }
+
+body {
+    background-image: url("http://www.silocreativo.com/en/wp-content/uploads/2015/06/background-free-july.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
