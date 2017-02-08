@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Homenaje';
 #button-container {
     text-align: center;
 }
@@ -7,6 +8,7 @@ h1 {
 }
 
 body {
+    font-family: 'Homenaje', sans-serif;
     background-image: url("http://www.silocreativo.com/en/wp-content/uploads/2015/06/background-free-july.png");
     background-repeat: no-repeat;
     background-position: right top;

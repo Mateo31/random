@@ -5,24 +5,126 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    makeLine(500, 1600, 500, 1980, "#ED6E4E", 15)
-    makeCircle(500, 1980, 7.5, "#ED6E4E")
+    var rando = Math.random()
+if (rando < 0.5) {
+    makeLine(500, 800, 500, 980, "#ED6E4E", 15)
+    makeCircle(500, 980, 7.5, "#ED6E4E")
+    makeLine(475, 800, 475, 980, "#ED6E4E", 15)
+    makeCircle(475, 980, 7.5, "#ED6E4E")
+    makeLine(450, 800, 450, 980, "#ED6E4E", 15)
+    makeCircle(450, 980, 7.5, "#ED6E4E")
+    makeLine(425, 800, 425, 980, "#ED6E4E", 15)
+    makeCircle(425, 980, 7.5, "#ED6E4E")
+    makeLine(400, 800, 400, 980, "#ED6E4E", 15)
+    makeCircle(400, 980, 7.5, "#ED6E4E")
+    makeCircle(450, 800, 75, "#ED6E4E")
+    makeCircle(450, 800, 65, "#ef7a5d")
+    makeCircle(450, 800, 55, "#f18d74")
+    makeCircle(450, 800, 45, "#f4a08b")
+    makeCircle(450, 800, 35, "#f6b3a2")
+    makeCircle(450, 800, 25, "#f8c6b9")
+}else{
+    makeLine(500, 800, 500, 980, "#efeacd", 15)
+    makeCircle(500, 980, 7.5, "#efeacd")
+    makeLine(475, 800, 475, 980, "#efeacd", 15)
+    makeCircle(475, 980, 7.5, "#efeacd")
+    makeLine(450, 800, 450, 980, "#efeacd", 15)
+    makeCircle(450, 980, 7.5, "#efeacd")
+    makeLine(425, 800, 425, 980, "#efeacd", 15)
+    makeCircle(425, 980, 7.5, "#efeacd")
+    makeLine(400, 800, 400, 980, "#efeacd", 15)
+    makeCircle(400, 980, 7.5, "#efeacd")
+    makeCircle(450, 800, 75, "#efeacd")
+    makeCircle(450, 800, 65, "#e1d79d")
+    makeCircle(450, 800, 55, "#dbcf8a")
+    makeCircle(450, 800, 45, "#d5c776")
+    makeCircle(450, 800, 35, "#cfbf63")
+    makeCircle(450, 800, 25, "#c9b74f")
 }
-
+}
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+    var rando = Math.random()
+if (rando < 0.5) {
+    makeLine(1800, 600, 1800, 780, "#94bdb5", 15)
+    makeCircle(1800, 780, 7.5, "#94bdb5")
+    makeLine(1775, 600, 1775, 780, "#94bdb5", 15)
+    makeCircle(1775, 780, 7.5, "#94bdb5")
+    makeLine(1750, 600, 1750, 780, "#94bdb5", 15)
+    makeCircle(1750, 780, 7.5, "#94bdb5")
+    makeLine(1725, 600, 1725, 780, "#94bdb5", 15)
+    makeCircle(1725, 780, 7.5, "#94bdb5")
+    makeLine(1700, 600, 1700, 780, "#94bdb5", 15)
+    makeCircle(1700, 780, 7.5, "#94bdb5")
+    makeCircle(1750, 600, 75, "#94bdb5")
+    makeCircle(1750, 600, 65, "#a0c5be")
+    makeCircle(1750, 600, 55, "#b0cfc9")
+    makeCircle(1750, 600, 45, "#c0d8d3")
+    makeCircle(1750, 600, 35, "#d0e2de")
+    makeCircle(1750, 600, 25, "#dfece9")
+} else {
+    makeLine(1800, 600, 1800, 780, "#283e38", 15)
+    makeCircle(1800, 780, 7.5, "#283e38")
+    makeLine(1775, 600, 1775, 780, "#283e38", 15)
+    makeCircle(1775, 780, 7.5, "#283e38")
+    makeLine(1750, 600, 1750, 780, "#283e38", 15)
+    makeCircle(1750, 780, 7.5, "#283e38")
+    makeLine(1725, 600, 1725, 780, "#283e38", 15)
+    makeCircle(1725, 780, 7.5, "#283e38")
+    makeLine(1700, 600, 1700, 780, "#283e38", 15)
+    makeCircle(1700, 780, 7.5, "#283e38")
+    makeCircle(1750, 600, 75, "#283e38")
+    makeCircle(1750, 600, 65, "#1e2f2a")
+    makeCircle(1750, 600, 55, "#141f1c")
+    makeCircle(1750, 600, 45, "#0a100e")
+    makeCircle(1750, 600, 35, "#000000")
+    makeCircle(1750, 600, 25, "#000000")
 }
-
+}
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    
+    var rando = Math.random()
+if (rando < 0.5) {
+    makeLine(1500, 400, 1500, 580, "#40656b", 15)
+    makeCircle(1500, 580, 7.5, "#40656b")
+    makeLine(1475, 400, 1475, 580, "#40656b", 15)
+    makeCircle(1475, 580, 7.5, "#40656b")
+    makeLine(1450, 400, 1450, 580, "#40656b", 15)
+    makeCircle(1450, 580, 7.5, "#40656b")
+    makeLine(1425, 400, 1425, 580, "#40656b", 15)
+    makeCircle(1425, 580, 7.5, "#40656b")
+    makeLine(1400, 400, 1400, 580, "#40656b", 15)
+    makeCircle(1400, 580, 7.5, "#40656b")
+    makeCircle(1450, 400, 75, "#40656b")
+    makeCircle(1450, 400, 65, "#4d7980")
+    makeCircle(1450, 400, 55, "#56888f")
+    makeCircle(1450, 400, 45, "#60989f")
+    makeCircle(1450, 400, 35, "#70a2a9")
+    makeCircle(1450, 400, 25, "#80adb3")
+} else {
+    makeLine(1500, 400, 1500, 580, "#ff66cc", 15)
+    makeCircle(1500, 580, 7.5, "#ff66cc")
+    makeLine(1475, 400, 1475, 580, "#ff66cc", 15)
+    makeCircle(1475, 580, 7.5, "#ff66cc")
+    makeLine(1450, 400, 1450, 580, "#ff66cc", 15)
+    makeCircle(1450, 580, 7.5, "#ff66cc")
+    makeLine(1425, 400, 1425, 580, "#ff66cc", 15)
+    makeCircle(1425, 580, 7.5, "#ff66cc")
+    makeLine(1400, 400, 1400, 580, "#ff66cc", 15)
+    makeCircle(1400, 580, 7.5, "#ff66cc")
+    makeCircle(1450, 400, 75, "#ff66cc")
+    makeCircle(1450, 400, 65, "#ff80d5")
+    makeCircle(1450, 400, 55, "#ff99dd")
+    makeCircle(1450, 400, 45, "#ffb3e6")
+    makeCircle(1450, 400, 35, "#ffccee")
+    makeCircle(1450, 400, 25, "#ffe6f7") 
+}
 }
 
 
